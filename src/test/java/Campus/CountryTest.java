@@ -73,11 +73,11 @@ public class CountryTest {
 
 
     public String getRandomName() {
-        return RandomStringUtils.randomAlphabetic(12).toLowerCase();
+        return RandomStringUtils.randomAlphabetic(8).toLowerCase();
     }
 
     public String getRandomCode() {
-        return RandomStringUtils.randomAlphabetic(5).toLowerCase();
+        return RandomStringUtils.randomAlphabetic(3).toLowerCase();
     }
 
 
